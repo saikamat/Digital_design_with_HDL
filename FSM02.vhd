@@ -1,7 +1,7 @@
 entity FSM02 is
 	port(
 		i, clk, reset: in std_logic;
-		q: std_logic;
+		q: std_logic
 	);
 end FSM02;
 
