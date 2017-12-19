@@ -52,6 +52,7 @@ begin
 				Cout <= '0';
 			when others =>
 		end case;
+	end if;
 	Q <= tmp(4 downto 0);
 	end process;
 end behaviour
