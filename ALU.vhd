@@ -53,6 +53,7 @@ begin
 			when others =>
 		end case;
 	end if;
-	Q <= tmp(4 downto 0);
+	--Q <= tmp(4 downto 0);
 	end process;
+	Q <= tmp(4 downto 0);
 end behaviour
