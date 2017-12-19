@@ -51,6 +51,8 @@ begin
 				tmp <= ('0' & A) - ('0' & B);
 				Cout <= '0';
 			when others =>
+				tmp <= (others => '0');
+				Cout <= '0';
 		end case;
 	end if;
 	--Q <= tmp(4 downto 0);
