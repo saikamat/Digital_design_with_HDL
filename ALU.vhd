@@ -28,10 +28,10 @@ begin
 		case CTRL is
 			when "000" =>
 				Q <= A(2 downto 0) & cin;
-				Cout <=  
+				Cout <= A(3); 
 			when "001" =>
 				Q <= cin & A(3 dowto 1);
-				Cout <= 
+				Cout <= A(0);
 			when "010" =>
 				Q <= A(2 downto 0) & '0';
 				Cout <= '0';
